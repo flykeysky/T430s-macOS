@@ -2,7 +2,7 @@
 
 This repository contains latest Clover UEFI, macOS kernel extensions, DSDT patches and and support tools for using macOS Sierra on Lenovo T430s laptop.
 
-**Current status**
+### Current status
 
 * macOS 10.12.6: **OK**
 * UEFI boot: **OK**
@@ -33,7 +33,7 @@ This repository contains latest Clover UEFI, macOS kernel extensions, DSDT patch
 * Dock Station: **not tested**
 * DVD: **OK**
 
-**Installation**
+### Installation
 
 1. Upgrade UEFI firmware to the latest available
 2. Turn UEFI Boot on, Secure Boot off, CSM off in UEFI settings
@@ -42,7 +42,7 @@ This repository contains latest Clover UEFI, macOS kernel extensions, DSDT patch
 5. ...
 6. PROFIT!
 
-**Directories**
+### Directories
 
 **[DSDT]** - extracted vanilla DSDTs, patched DSDTs, MacIASL patch script
 
@@ -50,7 +50,7 @@ This repository contains latest Clover UEFI, macOS kernel extensions, DSDT patch
 
 **[OTHER]** - support tools and scripts
 
-**Credits**
+### Credits
 
 The Hackintosh Community. All the credits go to the respective authors. None of the code is written or compiled by me.
 
