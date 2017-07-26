@@ -1,6 +1,6 @@
 # Lenovo T430s macOS Sierra
 
-This repository contains latest Clover UEFI, macOS kernel extensions, DSDT patches and and support tools for using macOS Sierra on Lenovo T430s laptop.
+This repository contains latest Clover UEFI, macOS kernel extensions, DSDT patches and support tools for using macOS Sierra on Lenovo T430s laptop.
 
 ### Current status
 
