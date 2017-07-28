@@ -1,6 +1,6 @@
 // 1. "patchmatic -extract" --> "DSDT.aml" --> "MaciASL/iasl61 -da -dl DSDT.aml" --> "DSDT.dsl"
 // 2. "DSDT.dsl" —-> [VID => IGPU] —-> "DSDT(IGPU).dsl"
-// 3. "DSDT.dsl(IGPU)" --> MaciASL/patches/this.txt --> "/EFI/Clover/ACPI/patched/DSDT.aml"
+// 3. "DSDT.dsl(IGPU)" --> MaciASL/patches/DSDT.patch --> "/EFI/Clover/ACPI/patched/DSDT.aml"
 // 4. "ssdtPRGen.sh -c 3 -lfm 900" --> "/EFI/Clover/ACPI/patched/SSDT.aml"
 // 5. "SSDT-PNLF.dsl" --> MaciASL --> "/EFI/Clover/ACPI/patched/SSDT-PNLF.aml"
 // 6. "sudo pmset -a hibernatemode 0 && rm /var/vm/sleepimage"
