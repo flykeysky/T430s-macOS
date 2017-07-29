@@ -36,7 +36,7 @@ This repository contains latest Clover UEFI, macOS kernel extensions, DSDT patch
 ### Installation
 
 1. Upgrade UEFI firmware to the latest available
-2. Turn UEFI Boot on, Secure Boot off, CSM off in UEFI settings
+2. Turn SATA AHCI mode on, UEFI Only Boot on, Secure Boot off, CSM support off in UEFI settings
 3. Use another Mac or Hackintosh to install Sierra on drive via USB (or make an installation USB drive using EFI directory from the repository)
 4. Mount EFI partition, replace EFI directory with one from the repository
 5. ...
