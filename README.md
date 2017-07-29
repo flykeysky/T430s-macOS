@@ -39,10 +39,11 @@ None of another models are currently supported (while adding **X220**/**X230** s
 
 1. Upgrade UEFI firmware to the latest available
 2. Turn **SATA AHCI mode ON**, **UEFI Only Boot ON**, **Secure Boot OFF**, **CSM support OFF** in UEFI settings
-3. Use another Mac or Hackintosh to install Sierra on drive via USB (or make an installation USB drive using EFI directory from the repository)
-4. Mount EFI partition, replace EFI directory with one from the repository (the actual macOS partition stays untouched)
-5. ...
-6. PROFIT!
+3. Partition and format target drive as MacOS Extended (Journaled) using GUID Partition Map in Disk Utility
+4. Use another Mac or Hackintosh to install Sierra on that partition via USB external enclosure (or make an installation USB drive using EFI directory from the repository)
+5. Mount EFI partition in Terminal (**diskutil mount /dev/diskXs1** where **diskX** is target drive BSD device node which can be checked in Disk Utility), replace any existing **EFI** directory with one from the repository (the actual macOS partition stays untouched)
+6. ...
+7. PROFIT!
 
 ### Directories
 
