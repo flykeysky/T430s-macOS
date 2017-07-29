@@ -24,6 +24,7 @@ None of another models are currently supported (while adding **X220**/**X230** s
 * Keyboard: **OK**
 * Touchpad: **OK**
 * Trackpoint: **OK** (tracking issues)
+* Camera: **OK**
 * Sound (speakers): **OK**
 * Sound (jack): **OK**
 * Sound (DP/HDMI): **not tested**
