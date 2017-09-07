@@ -62,7 +62,7 @@ None of another models are currently supported (while adding **X220**/**X230** s
 * FakeSMC.kext [**6.25-333**](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads)
 * ACPIBatteryManager.kext [**1.81.3**](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads)
 * AppleBacklightInjector.kext [**0.9.0**](https://github.com/RehabMan/HP-ProBook-4x30s-DSDT-Patch/tree/master/kexts/AppleBacklightInjector.kext)
-* IntelMausiEthernet.kext [**2.2.1d1**](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads)
+* IntelMausiEthernet.kext [**2.2.1d1**](https://bitbucket.org/RehabMan/os-x-intel-network/downloads)
 * VoodooPS2Controller.kext [**1.8.28**](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads)
 * BrcmBluetoothInjector.kext [**2.2.7**](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads)
 * AppleALC.kext [**1.1.4**](https://github.com/vit9696/AppleALC/releases)
