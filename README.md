@@ -35,7 +35,7 @@ None of another models are currently supported (while adding **X220**/**X230** s
 * USB2: **OK**
 * USB3: **OK**
 * Fingerprint: **NO**
-* Dock Station: **not tested**
+* Lenovo Dock Station: **OK**
 * DVD: **OK**
 
 ### Installation
