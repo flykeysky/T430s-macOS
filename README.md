@@ -50,14 +50,25 @@ None of another models are currently supported (while adding **X220**/**X230** s
 
 ### Directories
 
-**[DSDT]** - extracted vanilla DSDTs, patched DSDTs, MacIASL patch script
+* **[DSDT]** - extracted vanilla DSDTs, patched DSDTs, MacIASL patch script
+* **[EFI]** - preconfigured Clover (this is the only one necessary)
+* **[OTHER]** - support tools and scripts
 
-**[EFI]** - preconfigured Clover (this is the only one necessary)
+### Software
 
-**[OTHER]** - support tools and scripts
+* Clover [**4184**](https://sourceforge.net/projects/cloverefiboot)
+* Clover Configurator [**4.50.0.0**](http://mackie100projects.altervista.org)
+* MaciASL [**RM-1.31**](https://bitbucket.org/RehabMan/os-x-maciasl-patchmatic/downloads)
+* FakeSMC.kext [**6.25-333**](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads)
+* ACPIBatteryManager.kext [**1.81.3**](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads)
+* AppleBacklightInjector.kext [**0.9.0**](https://github.com/RehabMan/HP-ProBook-4x30s-DSDT-Patch/tree/master/kexts/AppleBacklightInjector.kext)
+* IntelMausiEthernet.kext [**2.2.1d1**](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads)
+* VoodooPS2Controller.kext [**1.8.28**](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads)
+* BrcmBluetoothInjector.kext [**2.2.7**](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads)
+* AppleALC.kext [**1.1.4**](https://github.com/vit9696/AppleALC/releases)
+* Lilu.kext [**1.1.7**](https://github.com/vit9696/Lilu/releases)
+* CodecCommander.kext [**2.6.3**](https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads)
 
 ### Credits
 
 The Hackintosh Community. All the credits go to the respective authors. None of the code is written or compiled by me.
-
-****
