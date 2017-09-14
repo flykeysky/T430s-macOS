@@ -56,7 +56,7 @@ None of another models are currently supported (while adding **X220**/**X230** s
 
 ### Software
 
-* Clover [**4184**](https://sourceforge.net/projects/cloverefiboot)
+* Clover [**r4200**](https://sourceforge.net/projects/cloverefiboot)
 * Clover Configurator [**4.50.0.0**](http://mackie100projects.altervista.org)
 * MaciASL [**RM-1.31**](https://bitbucket.org/RehabMan/os-x-maciasl-patchmatic/downloads)
 * FakeSMC.kext [**6.25-333**](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads)
