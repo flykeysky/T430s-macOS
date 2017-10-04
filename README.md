@@ -19,7 +19,7 @@ Alternatively it is possible to do in-place upgrade from macOS Sierra (10.12) wi
 * UEFI boot: **OK**
 * Battery: **OK** (minor % issues)
 * CPU Speedstep: **OK**
-* Sleep: **OK**
+* Sleep: **OK** (KP on wakeup with BT enabled)
 * LID (sleep, wake): **OK**
 * Hibernation: **NO**
 * Intel GPU: **OK**
@@ -29,7 +29,7 @@ Alternatively it is possible to do in-place upgrade from macOS Sierra (10.12) wi
 * Status LED: **OK**
 * Ethernet: **OK**
 * WLAN: **NO** (use USB dongle)
-* Bluetooth: **OK**
+* Bluetooth: **OK** (KP on wakeup with BT enabled)
 * Keyboard: **OK**
 * Touchpad: **OK**
 * Trackpoint: **OK** (tracking issues)
@@ -74,6 +74,7 @@ Alternatively it is possible to do in-place upgrade from macOS Sierra (10.12) wi
 * BrcmBluetoothInjector.kext [**2.2.7**](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads)
 * AppleALC.kext [**1.1.4**](https://github.com/vit9696/AppleALC/releases)
 * Lilu.kext [**1.1.7**](https://github.com/vit9696/Lilu/releases)
+* IntelGraphicsFixup.kext [**1.1.6**](https://bitbucket.org/RehabMan/intelgraphicsfixup/downloads)
 * CodecCommander.kext [**2.6.3**](https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads)
 
 ### Credits
