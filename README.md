@@ -1,14 +1,21 @@
-# Lenovo T430s macOS Sierra
+# Lenovo T430s macOS High Sierra
 
 ![About](https://raw.githubusercontent.com/dmitriypavlov/T430s-macOS/master/about.png)
 
-This repository contains latest Clover UEFI, macOS kernel extensions, DSDT patches and support tools for using macOS Sierra on **Lenovo T430s** (1600 х 900) laptop. 
+This repository contains latest Clover UEFI, macOS kernel extensions, DSDT patches and support tools for using macOS High Sierra on **Lenovo T430s** (1600 х 900) laptop. 
 
 None of another models are currently supported (while adding **X220**/**X230** support is possible in future).
 
+### Warning
+APFS is supported by this install (apfs.efi) but strongly discouraged as it causes malfunctions and long boot times with TRIM enabled on non-Apple SSD.
+
+Use `sudo trimforce disable` with APFS startup volume as a workaround or consider switching back to HFS+.
+
+Alternatively it is possible to do in-place upgrade from macOS Sierra (10.12) without APFS conversion with `/Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/startosinstall --converttoapfs NO`
+
 ### Current status
 
-* macOS 10.12.6: **OK**
+* macOS 10.13: **OK**
 * UEFI boot: **OK**
 * Battery: **OK** (minor % issues)
 * CPU Speedstep: **OK**
@@ -31,7 +38,7 @@ None of another models are currently supported (while adding **X220**/**X230** s
 * Sound (jack): **OK**
 * Sound (DP/HDMI): **not tested**
 * Microphone (built-in): **OK**
-* Microphone (jack): **not tested**
+* Microphone (jack): **OK**
 * USB2: **OK**
 * USB3: **OK**
 * Fingerprint: **NO**
@@ -56,13 +63,13 @@ None of another models are currently supported (while adding **X220**/**X230** s
 
 ### Software
 
-* Clover [**r4200**](https://sourceforge.net/projects/cloverefiboot)
-* Clover Configurator [**4.50.0.0**](http://mackie100projects.altervista.org)
+* Clover [**r4233**](https://sourceforge.net/projects/cloverefiboot)
+* Clover Configurator [**4.53.0.0**](http://mackie100projects.altervista.org)
 * MaciASL [**RM-1.31**](https://bitbucket.org/RehabMan/os-x-maciasl-patchmatic/downloads)
 * FakeSMC.kext [**6.25-333**](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads)
-* ACPIBatteryManager.kext [**1.81.3**](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads)
+* ACPIBatteryManager.kext [**1.81.4**](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads)
 * AppleBacklightInjector.kext [**0.9.0**](https://github.com/RehabMan/HP-ProBook-4x30s-DSDT-Patch/tree/master/kexts/AppleBacklightInjector.kext)
-* IntelMausiEthernet.kext [**2.2.1d1**](https://bitbucket.org/RehabMan/os-x-intel-network/downloads)
+* IntelMausiEthernet.kext [**2.3.0**](https://bitbucket.org/RehabMan/os-x-intel-network/downloads)
 * VoodooPS2Controller.kext [**1.8.28**](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads)
 * BrcmBluetoothInjector.kext [**2.2.7**](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads)
 * AppleALC.kext [**1.1.4**](https://github.com/vit9696/AppleALC/releases)
