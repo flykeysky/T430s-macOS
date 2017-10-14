@@ -1,5 +1,4 @@
 # Lenovo T430s macOS High Sierra
-# (support discontinued)
 
 ![About](https://raw.githubusercontent.com/dmitriypavlov/T430s-macOS/master/about.png)
 
